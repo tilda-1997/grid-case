@@ -1,11 +1,6 @@
 import * as React from "react";
 import styled from 'styled-components'
 
-const Div = styled.div`
-    display: flex;
-    flex-flow: row wrap;
-    flex-wrap: nowrap
-`
 
 const Button = styled.a`
     display: inline-block;
@@ -22,16 +17,12 @@ const Button = styled.a`
 const Header:React.FC = () => {
     return(
         <>
-        <Div>
-               
-            <Button>Season 1</Button>
-            <Button>Season 2</Button>
-            <Button>Season 3</Button>
-            <Button>Season 4</Button>
-            <Button>Season 5</Button>
-            <Button>Final Season </Button>
-        </Div>
-
+        <Button>Season 1</Button>
+        <Button>Season 2</Button>
+        <Button>Season 3</Button>
+        <Button>Season 4</Button>
+        <Button>Season 5</Button>
+        <Button>Final Season </Button>
         </>
     )
 
